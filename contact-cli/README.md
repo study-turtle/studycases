@@ -1,49 +1,52 @@
-# To-do List
+# Contact CLI
 
 ## Entry Point
 
-Pada entry point terdapat infinite loop untuk meng-input command dari user. Command kemudian diolah menggunakan `shlex.split()` dan dicocokan untuk memanggil fungsi yang bertanggung jawab untuk perintah tersebut.
+Pada entry point terdapat infinite loop untuk meng-input command dari user. Command kemudian diolah menggunakan fungsi input yang menerima input dari user.
 
 ## Database
 
 ```python
-database = {}
+self.contacts = []
 ```
 
-Database dibuat menggunakan struktur data dictionary. Dictionary tersebut memiliki key yang berupa nama dari task dan value yang berupa status dari task tersebut.
+Database dibuat menggunakan struktur data array (list). List tersebut memiliki dictionary dari atribut ```name``` dan ```number``` yang berisikan nama dan nomor telfon.
 
 ## Commands
 
-### `add(task)`
+### `1`
 
-Menambahkan task baru ke dalam database.
+Menambahkan kontak baru.
 
-### `remove(task)`
+### `2`
 
-Menghapus task dalam database.
+Melihat seluruh kontak pada database.
 
-### `rename(task, new_name)`
+### `3`
 
-Mengganti nama task pada database.
+Menghapus kontak pada database
 
-### `list_tasks(filter='todo')`
+## Functions
+```add(name, number)```
 
-Menampilkan semua task pada database sesuai dengan filternya. Filter yang dapat digunakan adalah `todo`, `done`, dan `all`. Filter `todo` hanya menampilkan task yang belum selesai. Filter `done` hanya menampilkan task yang sudah selesai, dan filter `all` menampilkan semua task.
+Menambahkan kontak baru dengan menerima parameter berupa nama dan nomor telfon.
 
-Task yang sudah selesai ditandai dengan `[x]` dan task yang belum selesai ditandai dengan `[ ]`.
+```view()```
 
-### `complete(task)`
+Menampilkan seluruh data pada ```self.contacts```.
 
-Mengubah status task menjadi completed.
 
-### `uncomplete(task)`
+```search_by_phone(phone)```
 
-Mengubah status task menjadi not completed.
+Mencari sebuah kontak berdasarkan nomor telfon dari data ```self.contacts```.
 
-### `toggle(task)`
+```delete(phone)```
 
-Mengubah status task menjadi kebalikan dari status semula.
+Menghapus sebuah data kontak yang dicocokkan berdasarkan nomor telfon, apabila nomor telfon tidak sama maka data dibuang dari array temporary untuk kembali disimpan pada variabel ```self.contacts```.
+
+
+
 
 ## Error handling
 
-Fungsi error handling dilakukan menggunakan pattern early return, yaitu mengecek error terlebih dahulu dan me-return jika terdapat error. Logic utama pada fungsi ditempatkan di paling akhir. Pattern ini berguna untuk menghindari penggunaan nested-if.
+Fungsi error handling dilakukan menggunakan kondisi, apabila tidak cocok maka tidak masuk ke dalam kondisi tersebut.
