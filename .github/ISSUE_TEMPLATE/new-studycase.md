@@ -3,7 +3,6 @@ name: New Studycase
 about: Template for creating new studycase
 title: "[STUDYCASE]"
 labels: proposal
-assignees: Faris999
 
 ---
 
@@ -19,15 +18,18 @@ assignees: Faris999
 [ ] PHP
 [ ] Javascript
 
+## Level
+[ ] Beginner (Awam belum banyak menyentuh code)
+[ ] Beginner 2 (Pemula yang sudah paham tentang sebagian code)
+[ ] Intermediate
+[ ] Advanced
+
 *Kita mendorong penggunaan Python untuk studycase, agar mudah dipahami semua kalangan
 
-## Petunjuk untuk membuat dokumen studycase
-Setidaknya perlu mengandung 3 hal di bawah ini:
-- Penjelasan
- - Tentang apa
- - Daftar apa saja yang bisa dilakukan oleh aplikasi tersebut
-- Penjelasan tentang kode
-- Kesimpulan / Manfaat / Tujuan dari studycase
+## Rinci
 
-### Tautan ke dokumen
-Tautan: <taruh-di-sini>
+### Tujuan / Ekspektasi Hasil
+[apa yang bakal reader dapatkan dari studycase ini?]
+
+### Penjelasan Program
+[rincian apa yang bisa program lakukan]
