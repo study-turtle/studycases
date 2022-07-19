@@ -3,16 +3,14 @@ name: New Studycase
 about: Template for creating new studycase
 title: "[STUDYCASE]"
 labels: proposal
-assignees: Faris999
 
 ---
 
-## Deskripsi
-[penjelasan tentang studycase]
-
-## Tipe
-[ ] CLI
-[ ] GUI
+##Level
+[ ] Newbie
+[ ] Beginner
+[ ] Intermediate
+[ ] Advanced
 
 ## Bahasa pemrograman
 [ ] Python
@@ -21,13 +19,14 @@ assignees: Faris999
 
 *Kita mendorong penggunaan Python untuk studycase, agar mudah dipahami semua kalangan
 
-## Petunjuk untuk membuat dokumen studycase
-Setidaknya perlu mengandung 3 hal di bawah ini:
-- Penjelasan
- - Tentang apa
- - Daftar apa saja yang bisa dilakukan oleh aplikasi tersebut
-- Penjelasan tentang kode
-- Kesimpulan / Manfaat / Tujuan dari studycase
+## Deskripsi
+[penjelasan tentang studycase]
 
-### Tautan ke dokumen
-Tautan: <taruh-di-sini>
+## Goals
+[tujuan dari pembuatan study case]
+
+## Fitur Program
+[fitur yang digunakan pada study case]
+
+## Konsep/Teori 
+[teori yang digunakan pada study case contoh: OOP, design pattern]
