@@ -4,7 +4,6 @@ about: Punya kritik dan saran? Atau permintaan studycase dengan jenis tertentu? 
   di sini~
 title: "[REQ]"
 labels: enhancement
-assignees: Faris999
 ---
 
 ## Judul

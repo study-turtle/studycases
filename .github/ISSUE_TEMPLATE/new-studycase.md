@@ -48,17 +48,6 @@ Sebuah program todo-list sederhana berbentuk CLI dengan empat menu yaitu:
 Contoh:
 Program ini ditujukan untuk membiasakan diri pada penggunaan modul class pada Python.
 
-## Fitur Program
-[fitur yang digunakan pada study case]
-<br/>
-<br/>
-Contoh:
-- Endless looping
-- List Dictionary (Array Object)
-- Modules
-- Class
-- Method Constructor
-
 ## Konsep/Teori 
 [teori yang digunakan pada study case contoh: OOP, design pattern]
 <br/>
@@ -67,3 +56,7 @@ Contoh:
 Contoh:
 - Class
 - Struktur Data
+- Endless looping
+- List Dictionary (Array Object)
+- Modules
+- Method Constructor

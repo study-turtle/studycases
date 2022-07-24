@@ -4,7 +4,6 @@ about: Menemukan error atau hal yang bisa ditingkatkan dari kode studycase? Kuy,
   di sini~
 title: "[CODE]"
 labels: bug
-assignees: Faris999
 ---
 
 ## Nama Folder Studycase
