@@ -7,7 +7,7 @@ labels: proposal
 
 ## Level
 
-- [] Firstcomer (Kategori bagi yang baru pertama kali terjun ke dunia pemrograman)
+- [ ] Firstcomer (Kategori bagi yang baru pertama kali terjun ke dunia pemrograman)
 - [ ] Beginner (Kategori bagi yang sudah belajar dasar dan mencoba membiasakan diri)
 - [ ] Intermediate (Kategori bagi yang sudah mulai terbiasa dengan sintaks pemrograman)
 - [ ] Advanced (Kategori tingkat lanjut dari yang sudah terbiasa dengan coding)
