@@ -3,31 +3,60 @@ name: New Studycase
 about: Template for creating new studycase
 title: "[STUDYCASE]"
 labels: proposal
-assignees: Faris999
-
 ---
 
-## Deskripsi
+## Level
+
+- [ ] Firstcomer (Kategori bagi yang baru pertama kali terjun ke dunia pemrograman)
+- [ ] Beginner (Kategori bagi yang sudah belajar dasar dan mencoba membiasakan diri)
+- [ ] Intermediate (Kategori bagi yang sudah mulai terbiasa dengan sintaks pemrograman)
+- [ ] Advanced (Kategori tingkat lanjut dari yang sudah terbiasa dengan coding)
+
+Contoh:
+
+- [x] Firstcomer (Kategori bagi yang baru pertama kali terjun ke dunia pemrograman)
+
+## Bahasa Pemrograman
+- [ ] Python
+- [ ] PHP
+- [ ] Javascript
+
+Contoh:
+
+- [x] Python
+
+*Tim Stutle mendorong penggunaan bahasa pemrograman Python untuk studi kasus, agar mudah dipahami semua kalangan.*
+
+## Deskripsi Singkat
 [penjelasan tentang studycase]
+<br/>
+<br/>
 
-## Tipe
-[ ] CLI
-[ ] GUI
+Contoh:
+Sebuah program todo-list sederhana berbentuk CLI dengan empat menu yaitu:
+1. Tambah Todo
+2. Lihat Todo
+3. Ubah Todo
+4. Hapus Todo
+5. Keluar dari Program
 
-## Bahasa pemrograman
-[ ] Python
-[ ] PHP
-[ ] Javascript
+## Tujuan
+[tujuan dari pembuatan study case]
+<br/>
+<br/>
 
-*Kita mendorong penggunaan Python untuk studycase, agar mudah dipahami semua kalangan
+Contoh:
+Program ini ditujukan untuk membiasakan diri pada penggunaan modul class pada Python.
 
-## Petunjuk untuk membuat dokumen studycase
-Setidaknya perlu mengandung 3 hal di bawah ini:
-- Penjelasan
- - Tentang apa
- - Daftar apa saja yang bisa dilakukan oleh aplikasi tersebut
-- Penjelasan tentang kode
-- Kesimpulan / Manfaat / Tujuan dari studycase
+## Konsep/Teori 
+[teori yang digunakan pada study case contoh: OOP, design pattern]
+<br/>
+<br/>
 
-### Tautan ke dokumen
-Tautan: <taruh-di-sini>
+Contoh:
+- Class
+- Struktur Data
+- Endless looping
+- List Dictionary (Array Object)
+- Modules
+- Method Constructor
