@@ -3,10 +3,10 @@ name: New Studycase
 about: Template for creating new studycase
 title: "[STUDYCASE]"
 labels: proposal
-
 ---
 
-##Level
+## Level
+
 [ ] Firstcomer (Kategori bagi yang baru pertama kali terjun ke dunia pemrograman)
 [ ] Beginner (Kategori bagi yang sudah belajar dasar dan mencoba membiasakan diri)
 [ ] Intermediate (Kategori bagi yang sudah mulai terbiasa dengan sintaks pemrograman)
@@ -14,7 +14,9 @@ labels: proposal
 
 ## Bahasa Pemrograman
 [ ] Python
+
 [ ] PHP
+
 [ ] Javascript
 
 *Tim Stutle mendorong penggunaan bahasa pemrograman Python untuk studi kasus, agar mudah dipahami semua kalangan.*
