@@ -12,10 +12,18 @@ labels: proposal
 - [ ] Intermediate (Kategori bagi yang sudah mulai terbiasa dengan sintaks pemrograman)
 - [ ] Advanced (Kategori tingkat lanjut dari yang sudah terbiasa dengan coding)
 
+Contoh:
+
+- [x] Firstcomer (Kategori bagi yang baru pertama kali terjun ke dunia pemrograman)
+
 ## Bahasa Pemrograman
 - [ ] Python
 - [ ] PHP
 - [ ] Javascript
+
+Contoh:
+
+- [x] Python
 
 *Tim Stutle mendorong penggunaan bahasa pemrograman Python untuk studi kasus, agar mudah dipahami semua kalangan.*
 
