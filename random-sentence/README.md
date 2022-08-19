@@ -22,4 +22,4 @@ while True:
     input()
 ```
 
-Dalap setiap loop, kita mengambil satu kata dari masing-masing list menggunakan fungsi `random.choice`. Kemudian, kalimat tersebut dicetak ke layar, dan program menunggu user untuk menekan enter untuk mencetak kalimat selanjutnya.
+Dalam setiap loop, kita mengambil satu kata dari masing-masing list menggunakan fungsi `random.choice`. Kemudian, kalimat tersebut dicetak ke layar, dan program menunggu user untuk menekan enter untuk mencetak kalimat selanjutnya.
